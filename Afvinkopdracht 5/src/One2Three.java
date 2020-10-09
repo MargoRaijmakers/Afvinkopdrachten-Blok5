@@ -39,14 +39,18 @@ public class One2Three extends JFrame implements ActionListener {
      */
     public void actionPerformed(ActionEvent event) {
         StringBuilder result = new StringBuilder();
+        // Als er iets is ingevuld voor de 1-lettercode
         if (!aa1.getText().equals("1-lettercode") & !aa1.getText().equals("")) {
             try {
+                // Vertaal per aminozuur de 1-lettercode naar de 3-lettercode
                 for (int i = 0; i < aa1.getText().length(); i++) {
                     result.append(Translator.one2three(String.valueOf(aa1.getText().toUpperCase().charAt(i))));
                     result.append("-"); }
+                // Haal het laatste - weg
                 result = result.deleteCharAt(result.length() - 1);
                 aa3.setText(String.valueOf(result));
             } catch (NotAnAA notAnAA) { System.out.println(notAnAA); }
+        // Als er niets is ingevuld voor de 1-lettercode
         } else {
             System.out.println("Geef voor de 1-lettercode een waarde op");
         }
