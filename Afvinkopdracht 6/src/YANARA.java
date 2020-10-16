@@ -32,7 +32,7 @@ public class YANARA extends JFrame implements ActionListener {
     }
 
     /**
-     * Deze functie maakt de GUI aan
+     * Deze methode maakt de GUI aan
      */
     private void createGUI() {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -83,7 +83,7 @@ public class YANARA extends JFrame implements ActionListener {
     }
 
     /**
-     * Deze functie leest het bestand in
+     * Deze methode leest het bestand in
      */
     public String readFile() {
         StringBuilder sequence = new StringBuilder();
@@ -109,7 +109,7 @@ public class YANARA extends JFrame implements ActionListener {
     }
 
     /**
-     * Deze functie bepaalt of een aminozuur polair of apolair is
+     * Deze methode bepaalt of een aminozuur polair of apolair is
      *
      * @param aa een aminozuur in de aminozuursequentie
      * @return true of false, true als het aminozuur polair is en false als het aminozuur apolair is
@@ -120,7 +120,7 @@ public class YANARA extends JFrame implements ActionListener {
     }
 
     /**
-     * Deze functie laat de gebruiker een bestand kiezen en geeft de informatie over de
+     * Deze methode laat de gebruiker een bestand kiezen en geeft de informatie over de
      * aminozuursequentie in het bestand weer als er op de buttons wordt geklikt
      *
      * @param event het klikken van een button
