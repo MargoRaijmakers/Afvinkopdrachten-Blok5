@@ -1,3 +1,8 @@
+/**
+ * @Author Martijn van der Bruggen
+ * @Date  1-september-2019
+ */
+
 public class AAchecker {
 
     public static final String aminoacids = "ARNDCFQEGHILKMPSTWYV";
