@@ -1,6 +1,8 @@
 // Margo Raijmakers
 // 05-10-20
 
+// Het stuk code voor het selecteren en inlezen van bestanden is gekopieerd van GitHub van owe5a van hanbioinformatica
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
