@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"biotools.bioseq","l":"Sequentie.colors"},{"p":"biotools.bioseq","l":"DNA"},{"p":"biotools.bioapp","l":"NoValidSeq"},{"p":"biotools.bioseq","l":"Peptide"},{"p":"biotools.bioseq","l":"RNA"},{"p":"biotools.bioseq","l":"Sequentie"},{"p":"biotools.bioapp","l":"SeqVis"}]
